@@ -60,7 +60,6 @@ This approach:
 
 * ⚡ **Blazing fast downloads** (direct S3)
 * 🎨 **Modern UI** with glassmorphism & trust indicators
-* 🌗 **Light & Dark mode** support
 * 🔐 No AWS credentials exposed to users
 * 🧠 Clean Axum routing & shared application state
 * 🧩 Modular project structure
@@ -158,7 +157,7 @@ This project is actively evolving and designed to be extended with:
 
 ## 🧑‍💻 Author
 
-** Aeon **
+**Aeon**
 Built with care, performance, and clean design in mind.
 
 ---
