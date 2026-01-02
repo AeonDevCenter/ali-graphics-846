@@ -157,7 +157,7 @@ This project is actively evolving and designed to be extended with:
 
 ## 🧑‍💻 Author
 
-**Aeon**
+**Aeon Roamer**
 Built with care, performance, and clean design in mind.
 
 ---
