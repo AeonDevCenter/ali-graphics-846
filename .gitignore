@@ -1,0 +1,89 @@
+# ==============================
+# Rust / Cargo
+# ==============================
+/target/
+**/*.rs.bk
+Cargo.lock.backup
+
+# Optional: keep Cargo.lock for binaries, ignore for libraries
+# Cargo.lock
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.*
+config/*.secret.*
+.idea
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Editors / IDEs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# ==============================
+# Build tools
+# ==============================
+dist/
+build/
+out/
+
+# ==============================
+# Node / Frontend (if ever used)
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# WASM / Web builds
+# ==============================
+pkg/
+wasm-pack.log
+.trunk/
+.trunk-cache/
+web-dist/
+
+# ==============================
+# Coverage / Profiling
+# ==============================
+coverage/
+*.profraw
+*.profdata
+flamegraph.svg
+
+# ==============================
+# Docker
+# ==============================
+.dockerignore
+docker-compose.override.yml
+
+# ==============================
+# Git
+# ==============================
+.git-rewrite/

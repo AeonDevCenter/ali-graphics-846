@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    >
+    <title>Ali Graphics — {{ file_name }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/meta.css">
+
+    <!-- Font Awesome -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
+</head>
+<body>
+
+<div class="card">
+    <!-- Trust Badge -->
+    <div class="trust-badge">
+        <i class="fa fa-shield"></i>
+        <span>Verified & Safe</span>
+    </div>
+
+    <!-- File Icon -->
+    <div class="icon">
+        <i class="fa fa-file"></i>
+    </div>
+
+    <!-- File Name -->
+    <h1 class="card-header">{{ file_name }}</h1>
+
+    <!-- Meta Info -->
+    <div class="meta">
+        <div class="meta-row">
+            <span class="label">File Type</span>
+            <span class="value">
+                {% if let Some(t) = file_type %}
+                    {{ t }}
+                {% else %}
+                    Unknown
+                {% endif %}
+            </span>
+        </div>
+
+        <div class="meta-row">
+            <span class="label">File Size</span>
+            <span class="value">
+                {% if let Some(s) = size %}
+                    {{ s }}
+                {% else %}
+                    N/A
+                {% endif %}
+            </span>
+        </div>
+    </div>
+
+    <!-- Download Button -->
+    <a href="{{ download_link }}" class="download-btn">
+        <i class="fa fa-download"></i>
+        Download File
+    </a>
+
+    <!-- Footer -->
+    <div class="footer">
+        <i class="fa fa-lock"></i>
+        <span>Scanned for viruses • Secure delivery</span>
+    </div>
+</div>
+
+</body>
+</html>
