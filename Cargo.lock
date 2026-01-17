@@ -12,22 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ali-graphics-server"
-version = "0.1.0"
-dependencies = [
- "askama",
- "aws-config",
- "aws-sdk-s3",
- "axum",
- "hyper 1.8.1",
- "serde",
- "serde_json",
- "thiserror",
- "tokio",
- "tower-http",
-]
-
-[[package]]
 name = "allocator-api2"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1854,6 +1838,22 @@ name = "ryu"
 version = "1.0.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a50f4cf475b65d88e057964e0e9bb1f0aa9bbb2036dc65c64596b42932536984"
+
+[[package]]
+name = "s3_asset_distributor"
+version = "0.1.0"
+dependencies = [
+ "askama",
+ "aws-config",
+ "aws-sdk-s3",
+ "axum",
+ "hyper 1.8.1",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+ "tower-http",
+]
 
 [[package]]
 name = "schannel"

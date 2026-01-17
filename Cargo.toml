@@ -1,5 +1,5 @@
 [package]
-name = "ali-graphics-server"
+name = "s3_asset_distributor"
 version = "0.1.0"
 edition = "2024"
 
